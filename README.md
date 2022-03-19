@@ -9,12 +9,9 @@ pip install -r requirements.txt
 ```
 Файл `.env`, лежащий в одном каталоге с проектом, должен содержать следующие переменные для доступа к базе данных (с примерами):
 ```
-ENGINE=django.db.engine
-HOST=host.example.com
-PORT=1111
-NAME=name
-USER=user
-PASSWORD=password
+DB_URL=postgres://USER:PASSWORD@HOST:PORT/NAME
+SECRET_KEY=SECRET_KEY
+ALLOWED_HOSTS=['example.com']
 DEBUG=false
 ```
 
