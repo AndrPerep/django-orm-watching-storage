@@ -7,14 +7,15 @@
 ```
 pip install -r requirements.txt
 ```
-Файл `.env`, лежащий в одном каталоге с проектом, должен содержать следующие переменные для доступа к базе данных:
+Файл `.env`, лежащий в одном каталоге с проектом, должен содержать следующие переменные для доступа к базе данных (с примерами):
 ```
-ENGINE
-HOST
-PORT
-NAME
-USER
-PASSWORD
+ENGINE=django.db.engine
+HOST=host.example.com
+PORT=1111
+NAME=name
+USER=user
+PASSWORD=password
+DEBUG=false
 ```
 
 ### Как запустить
